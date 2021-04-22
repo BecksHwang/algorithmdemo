@@ -12,9 +12,11 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
  */
 public class SqlWhereAnalyze {
 
-    String condition = "(\\w+\\.){0,1}\\w+\\s*(((=|>|<|IS|)\\s*?(\\w+\\.){0,1}[\\w%])|((LIKE)\\s*\"?(\\w+\\.){0,1}[\\w%]+\"))?";//条件的正则表达式,LIKE单独匹配
+    //条件的正则表达式,LIKE单独匹配
+    String condition = "(\\w+\\.){0,1}\\w+\\s*(((=|>|<|IS|)\\s*?(\\w+\\.){0,1}[\\w%])|((LIKE)\\s*\"?(\\w+\\.){0,1}[\\w%]+\"))?";
 
-    String conditions = condition + "(\\s+(AND|OR)\\s*" + condition + "\\s*)*";//条件组合匹配AND、OR
+    //条件组合匹配AND、OR
+    String conditions = condition + "(\\s+(AND|OR)\\s*" + condition + "\\s*)*";
 
     /**
      * 判断传入的字符串是否符合sql where条件语句
