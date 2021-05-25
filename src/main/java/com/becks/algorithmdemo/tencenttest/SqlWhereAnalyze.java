@@ -1,4 +1,4 @@
-package com.becks.algorithmdemo.TencentTest;
+package com.becks.algorithmdemo.tencenttest;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -7,8 +7,8 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 /**
  * @ClassName SqlWhereAnalyze
  * @Description 判断解析sql where 条件语句
- * @Author Becks Hwang
- * @Date 2021/4/22 16:54
+ * @Author Becks
+ * @Date 2021/4/22
  */
 public class SqlWhereAnalyze {
 

@@ -1,4 +1,4 @@
-package com.becks.algorithmdemo.LRU;
+package com.becks.algorithmdemo.lru;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 /**
  * @ClassName LRUCacheDemo
  * @Description 自定义数据结构实现LRU算法
- * @Author Becks Hwang
- * @Date 2021/4/21 11:26
+ * @Author Becks
+ * @Date 2021/4/21
  */
 public class LRUCache2 {
 

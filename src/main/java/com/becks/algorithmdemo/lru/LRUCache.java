@@ -1,4 +1,4 @@
-package com.becks.algorithmdemo.LRU;
+package com.becks.algorithmdemo.lru;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -6,8 +6,8 @@ import java.util.Map;
 /**
  * @ClassName LRUcache
  * @Description 使用LinkedHashMap实现LRU算法，采用的数据结构：hashmap + 链表
- * @Author Becks Hwang
- * @Date 2021/4/13 15:52
+ * @Author Becks
+ * @Date 2021/4/13
  */
 public class LRUCache extends LinkedHashMap<Integer, Integer> {
 
