@@ -1,4 +1,4 @@
-package com.becks.algorithmdemo.stairsproblem;
+package com.becks.algorithmdemo.niukewang;
 
 /**
  * @ClassName StairsProblem
